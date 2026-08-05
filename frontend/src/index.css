@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-gradient: linear-gradient(135deg, #FFDEE9 0%, #B5FFFC 100%);
+  }
+  body {
+    background: var(--bg-gradient);
+    background-attachment: fixed;
+  }
+}
+
+/* Custom animations */
+@keyframes bgShift {
+  0% { background: linear-gradient(135deg, #FFDEE9 0%, #B5FFFC 100%); }
+  50% { background: linear-gradient(135deg, #FBC2EB 0%, #A6C1EE 100%); }
+  100% { background: linear-gradient(135deg, #FFDEE9 0%, #B5FFFC 100%); }
+}
+
+/* Glow effect */
+.glow {
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.5), 0 0 5px rgba(0, 255, 255, 0.5);
+}
