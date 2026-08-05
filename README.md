@@ -3,9 +3,7 @@
 > **Turn your daily habits into an RPG adventure!**  
 > Earn XP, level up, unlock badges, complete quests, collect coins, and compete with friends.
 
-<p align="center">
-  <img src="https://via.placeholder.com/1200x350/6C63FF/FFFFFF?text=HabitQuest+-+Gamified+Habit+Tracker" alt="HabitQuest Banner"/>
-</p>
+
 
 <p align="center">
 
